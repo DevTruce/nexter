@@ -2,7 +2,6 @@
 
 /////////////////////////////////////////////////////////
 // HEADINGS
-
 %header {
   font-family: $font-display;
   font-weight: 400;
@@ -14,10 +13,24 @@
 
 .header-2 {
   @extend %header;
+  font-size: 4rem;
+  font-style: italic;
+  line-height: 1;
+
+  &--light {
+    color: $color-grey-light-1;
+  }
+
+  &--dark {
+    color: $color-grey-dark-1;
+  }
 }
 
 .header-3 {
   @extend %header;
+  font-size: 1.6rem;
+  color: $color-primary;
+  text-transform: uppercase;
 }
 
 .header-4 {
@@ -30,5 +43,32 @@
 
   &--dark {
     color: $color-grey-dark-1;
+  }
+}
+
+/////////////////////////////////////////////////////////
+// BUTTON
+
+.btn {
+  background-color: $color-primary;
+  color: #fff;
+  border: none;
+  border-radius: 0;
+  font-family: $font-display;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  padding: 1.8rem 3rem;
+  cursor: pointer;
+  transition: all 200ms;
+
+  &:hover,
+  &:focus {
+    background-color: $color-primary-dark;
+    transform: translateY(-0.5rem);
+  }
+
+  &:active {
+    background-color: $color-primary;
+    transform: translateY(-0.2rem);
   }
 }
