@@ -1,7 +1,38 @@
 // Developer: Truce Ramcharitar
 
 .homes {
-  background-color: $color-secondary;
-
+  margin: 15rem 0;
   grid-column: center-start / center-end;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  grid-gap: 7rem;
+}
+
+.home {
+  background-color: $color-grey-light-1;
+
+  &__img {
+    width: 100%;
+  }
+
+  &__like {
+  }
+
+  &__name {
+  }
+
+  &__location,
+  &__rooms,
+  &__area,
+  &__price {
+    svg {
+      fill: $color-primary;
+      width: 2rem;
+      height: 2rem;
+    }
+
+    p {
+    }
+  }
 }
