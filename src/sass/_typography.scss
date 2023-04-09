@@ -9,6 +9,9 @@
 
 .header-1 {
   @extend %header;
+  font-size: 4.1rem;
+  color: $color-grey-light-1;
+  line-height: 1;
 }
 
 .header-2 {
