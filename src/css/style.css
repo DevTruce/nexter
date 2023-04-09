@@ -276,4 +276,34 @@ body {
 
 .footer {
   background-color: #101d2c;
-  grid-column: full-start / full-end; }
+  grid-column: full-start / full-end;
+  padding: 8rem; }
+
+.nav {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  grid-gap: 2rem;
+  align-items: center; }
+  .nav__link:link, .nav__link:visited {
+    display: block;
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: "Josefin Sans", sans-serif;
+    text-align: center;
+    padding: 1.5rem;
+    transition: all 200ms; }
+  .nav__link:hover, .nav__link:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    transform: translateY(-0.5rem); }
+  .nav__link:active {
+    background-color: #c69963;
+    transform: translateY(-0.2rem); }
+
+.copyright {
+  color: #aaa;
+  font-size: 1.4rem;
+  margin-top: 6rem;
+  text-align: center; }
