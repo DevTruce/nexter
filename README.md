@@ -144,9 +144,9 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 ## Contact
 
-Email: [DevTruce@Gmail-icon]()
+Email: [DevTruce@Gmail.com]()
 
-Discord: [Xzypher#9999]()
+Discord: [xzypher.]()
 
 Project Link: [Nexter](https://github.com/DevTruce/nexter)
 
